@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razor Barbershop — Послуги</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                RAZOR <span>BARBERSHOP</span>
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" class="active" data-i18n="nav_services">Послуги</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <a href="tel:+380989707007" class="phone-btn">+380 98 970 7007</a>
+                <button class="mobile-menu-toggle" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 data-i18n="services_page_title">Наші послуги</h1>
+                <p data-i18n="services_page_subtitle">Професійний догляд та стильні стрижки у Калуші</p>
+            </div>
+        </section>
+
+        <section class="services-section section-padding">
+            <div class="container">
+                <div class="services-grid">
+                    <div class="service-item">
+                        <h3 data-i18n="srv_1_title">Чоловіча стрижка</h3>
+                        <p data-i18n="srv_1_desc">Класичні та сучасні стрижки, підбір форми з урахуванням індивідуальних особливостей.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3 data-i18n="srv_2_title">Стрижка під насадку / машинкою</h3>
+                        <p data-i18n="srv_2_desc">Швидка та акуратна коротка стрижка з використанням професійного обладнання.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3 data-i18n="srv_3_title">Стрижка бороди та вусів</h3>
+                        <p data-i18n="srv_3_desc">Моделювання форми бороди, догляд та окантовка.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3 data-i18n="srv_4_title">Королівське гоління</h3>
+                        <p data-i18n="srv_4_desc">Традиційне гоління небезпечною бритвою з гарячими компресами та професійною косметикою.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3 data-i18n="srv_5_title">Камуфляж сивини</h3>
+                        <p data-i18n="srv_5_desc">Професійне тонування волосся та бороди для природного вигляду.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3 data-i18n="srv_6_title">Дитяча стрижка</h3>
+                        <p data-i18n="srv_6_desc">Стильні та охайні стрижки для юних джентльменів.</p>
+                    </div>
+                </div>
+                <div class="services-cta text-center">
+                    <p data-i18n="services_note">Для уточнення деталей та запису телефонуйте:</p>
+                    <a href="tel:+380989707007" class="btn btn-primary">+380 98 970 7007</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <a href="index.html" class="logo">RAZOR <span>BARBERSHOP</span></a>
+                <p data-i18n="footer_desc">Сучасний чоловічий барбершоп у місті Калуш.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts">Контакти</h4>
+                <p><strong>Адреса:</strong> проспект Лесі Українки, 66, Калуш</p>
+                <p><strong>Телефон:</strong> <a href="tel:+380989707007">+380 98 970 7007</a></p>
+                <p><strong>Години:</strong> Пн-Сб: 10:00 - 20:00, Нд: Вихідний</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_socials">Соцмережі</h4>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/razor.barbershop.kalush" target="_blank" rel="noopener">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 Razor Barbershop Калуш. Усі права захищені.</p>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
