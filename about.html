@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razor Barbershop — Про нас</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                RAZOR <span>BARBERSHOP</span>
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" class="active" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Послуги</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <a href="tel:+380989707007" class="phone-btn">+380 98 970 7007</a>
+                <button class="mobile-menu-toggle" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 data-i18n="about_page_title">Про нас</h1>
+                <p data-i18n="about_page_subtitle">Ваш простір стилю та комфорту у Калуші</p>
+            </div>
+        </section>
+
+        <section class="about-content section-padding">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-text-block">
+                        <p data-i18n="about_p1">Razor Barbershop у Калуші — це сучасний простір для чоловіків, які цінують бездоганний стиль, якісні стрижки та догляд за бородою. Наші майстри володіють найсучаснішими техніками перукарського мистецтва, створюючи індивідуальні та стильні образи для кожного клієнта. У нас панує атмосфера справжнього чоловічого клубу, де можна відпочити, отримати професійну консультацію щодо догляду за волоссям та насолодитися високим рівнем сервісу.</p>
+                        <p data-i18n="about_p2">Ми використовуємо виключно професійну косметику та стежимо за чистотою та стерильністю інструментів, щоб кожна процедура була максимально безпечною та приємною. Незалежно від того, чи потрібна вам класична стрижка, екстремальний фейд чи моделювання бороди — наші барбери зроблять все на найвищому рівні.</p>
+                        <p data-i18n="about_p3">Завітайте до Razor Barbershop за адресою проспект Лесі Українки, 66, та доведіть свій стиль до досконалості. Ми дбаємо про те, щоб кожен гість виходив від нас не лише з новою зачіскою, а й у чудовому настрої.</p>
+                    </div>
+                    <div class="about-image-block">
+                        <img src="images/photo-02.jpg" alt="Razor Barbershop Калуш атмосфера" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <a href="index.html" class="logo">RAZOR <span>BARBERSHOP</span></a>
+                <p data-i18n="footer_desc">Сучасний чоловічий барбершоп у місті Калуш.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts">Контакти</h4>
+                <p><strong>Адреса:</strong> проспект Лесі Українки, 66, Калуш</p>
+                <p><strong>Телефон:</strong> <a href="tel:+380989707007">+380 98 970 7007</a></p>
+                <p><strong>Години:</strong> Пн-Сб: 10:00 - 20:00, Нд: Вихідний</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_socials">Соцмережі</h4>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/razor.barbershop.kalush" target="_blank" rel="noopener">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 Razor Barbershop Калуш. Усі права захищені.</p>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
