@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razor Barbershop — Контакти</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                RAZOR <span>BARBERSHOP</span>
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Послуги</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" class="active" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <a href="tel:+380989707007" class="phone-btn">+380 98 970 7007</a>
+                <button class="mobile-menu-toggle" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 data-i18n="contacts_page_title">Контакти</h1>
+                <p data-i18n="contacts_page_subtitle">Чекаємо на вас у нашому барбершопі</p>
+            </div>
+        </section>
+
+        <section class="contacts-section section-padding">
+            <div class="container">
+                <div class="contacts-grid">
+                    <div class="contacts-info">
+                        <div class="contact-card">
+                            <h3 data-i18n="card_address_title">Адреса</h3>
+                            <p data-i18n="contact_address_val">проспект Лесі Українки, 66, Калуш, Івано-Франківська область, Україна, 77300</p>
+                        </div>
+                        <div class="contact-card">
+                            <h3 data-i18n="card_phone_title">Телефон</h3>
+                            <p><a href="tel:+380989707007">+380 98 970 7007</a></p>
+                        </div>
+                        <div class="contact-card">
+                            <h3 data-i18n="card_hours_title">Графік роботи</h3>
+                            <p data-i18n="contact_hours_val">Пн-Сб: 10:00 - 20:00<br>Нд: Вихідний</p>
+                        </div>
+                        <div class="contact-card">
+                            <h3 data-i18n="card_social_title">Соціальні мережі</h3>
+                            <p><a href="https://www.instagram.com/razor.barbershop.kalush" target="_blank" rel="noopener">Instagram</a></p>
+                        </div>
+                    </div>
+                    <div class="contacts-map">
+                        <div class="map-container">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2605.378772392652!2d24.364214!3d49.034567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4731f510793b8c3f%3A0x6b4293f9c6237198!2zпросп. Лесі Українки, 66, Калуш, Івано-Франківська область, 77300!5e0!3m2!1suk!2sua!4v1700000000000!5m2!1suk!2sua" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <a href="index.html" class="logo">RAZOR <span>BARBERSHOP</span></a>
+                <p data-i18n="footer_desc">Сучасний чоловічий барбершоп у місті Калуш.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts">Контакти</h4>
+                <p><strong>Адреса:</strong> проспект Лесі Українки, 66, Калуш</p>
+                <p><strong>Телефон:</strong> <a href="tel:+380989707007">+380 98 970 7007</a></p>
+                <p><strong>Години:</strong> Пн-Сб: 10:00 - 20:00, Нд: Вихідний</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_socials">Соцмережі</h4>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/razor.barbershop.kalush" target="_blank" rel="noopener">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 Razor Barbershop Калуш. Усі права захищені.</p>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
